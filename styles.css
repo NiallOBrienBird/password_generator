@@ -1,0 +1,26 @@
+#output {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.1rem;
+    margin: 1rem 0rem;
+    font-size: 0.6rem;
+    align-content: center;
+    transition: background-color 0.3s ease-in-out;
+
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#output:hover {
+   background-color: rgb(11, 224, 71);
+}
+
+#generate {
+    background-color: rgba(66, 164, 94, 0.778);
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+#generate:hover {
+    background-color: rgb(11, 224, 71);
+}
